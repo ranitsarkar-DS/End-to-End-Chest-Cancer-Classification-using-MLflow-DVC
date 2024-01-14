@@ -13,3 +13,27 @@ Deep Learning End to End project
 8. Update the main.py
 9. Update the dvc.yaml
 
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI = https://dagshub.com/ranitsarkar/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC.mlflow \
+MLFLOW_TRACKING_USERNAME = ranitsarkar \
+MLFLOW_TRACKING_PASSWORD = ****************************\
+python script.py
+
+Run this to export as env variables:
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/ranitsarkar/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC.mlflow
+
+export MLFLOW_TRACKING_USERNAME=ranitsarkar
+
+export MLFLOW_TRACKING_PASSWORD=ae20a5c8d7fc72380987455496767d00d155d573
+```
